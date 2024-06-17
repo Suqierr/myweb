@@ -104,7 +104,8 @@ span {
     font-size: 18px;
     line-height: 36px;
     align-self: center;
-    padding-left: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .icon {
@@ -151,7 +152,8 @@ span {
     font-size: 18px;
     line-height: 36px;
     align-self: center;
-    padding-left: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 audio {
