@@ -1,0 +1,48 @@
+/*幻灯片与导航栏部分开始*/
+.nvgbox{ background:#7093DB; width:100%; height:40px;}
+.allnvg{ width:178px; margin-top:0px; float:left; position:absolute; z-index:111}
+.spll{ width:178px; color:#FFF; background:#545454; text-align:center; font-size:16px; line-height:40px;}
+.nvg{ width:178px; height:455px; background:rgba(0,0,0,0.8); *background:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2000000,endColorstr=#b2000000);}
+.nvg li{ padding:4px 30px 6px 10px; line-height:24px;}
+.nvgli{ position:relative; margin-top:0px;}
+.nvgli:hover .all_slide{ display:block;}
+.all_slide{ height:280px; width:400px; top:0; left:178px; position:absolute; display:none; background:rgba(0,0,0,0.8); *background:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2000000,endColorstr=#b2000000); }
+.all_slide li { float:left; text-align:center;}
+.all_slide li a{ float:left; text-align:center;}
+.nvgli:hover .all_slide1{ display:block;}
+.nvgli:hover .bg{background:rgba(102,102,102,0.8);*background:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000);}
+.bg li{ border-bottom:#4c4d4e solid 1px;}
+.alllist{float:left; width:850px; margin-left:180px;}
+.alllist li{ float:left;}
+.alllist li a{ color:#FFF; font-size:16px; font-weight:normal; line-height:40px; padding:0 30px 0 30px; text-align:center;}
+.alllist li a:hover{ background:#32CD99; display:block;}
+/*标题部分*/
+.width{ width:1100px; margin-left:auto; margin-right:auto;}
+.juzhong{
+	margin:0 auto;
+	width:1002px;
+	overflow:hidden;
+}
+/*中间开始*/
+.main{
+	width:100%;
+	margin:20px 0 20px 0;
+}
+/*以下为尾部部分*/
+
+.footer{
+        background:#7093DB;
+        line-height:50px;
+        clear:both;
+        text-align:center;
+        }
+/*ui和li*/
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+}
+
